@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3614,7 +3614,7 @@ CENTER : CENTER</text>
 <instance part="SUPPLY75" gate="G$1" x="148.59" y="67.31"/>
 <instance part="SUPPLY76" gate="G$1" x="148.59" y="74.93"/>
 <instance part="SUPPLY77" gate="G$1" x="148.59" y="72.39"/>
-<instance part="SUPPLY78" gate="G$1" x="148.59" y="118.11"/>
+<instance part="SUPPLY78" gate="G$1" x="307.34" y="92.71" rot="R180"/>
 <instance part="SUPPLY79" gate="G$1" x="307.34" y="64.77" rot="R180"/>
 <instance part="SUPPLY81" gate="G$1" x="307.34" y="67.31" rot="R180"/>
 <instance part="SUPPLY82" gate="G$1" x="307.34" y="62.23" rot="R180"/>
@@ -3699,7 +3699,7 @@ CENTER : CENTER</text>
 <instance part="SUPPLY198" gate="G$1" x="307.34" y="163.83"/>
 <instance part="SUPPLY199" gate="G$1" x="307.34" y="166.37"/>
 <instance part="SUPPLY200" gate="G$1" x="307.34" y="168.91"/>
-<instance part="SUPPLY201" gate="G$1" x="148.59" y="113.03"/>
+<instance part="SUPPLY201" gate="G$1" x="307.34" y="90.17" rot="R180"/>
 <instance part="SUPPLY202" gate="G$1" x="307.34" y="59.69" rot="R180"/>
 <instance part="SUPPLY203" gate="G$1" x="307.34" y="138.43"/>
 <instance part="SUPPLY204" gate="G$1" x="307.34" y="133.35"/>
@@ -4282,9 +4282,9 @@ CENTER : CENTER</text>
 </net>
 <net name="MOTOR1" class="0">
 <segment>
-<wire x1="190.5" y1="118.11" x2="163.83" y2="118.11" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="92.71" x2="292.1" y2="92.71" width="0.1524" layer="91"/>
 <pinref part="SUPPLY78" gate="G$1" pin="P$1"/>
-<pinref part="U1" gate="G$1" pin="100_P05"/>
+<pinref part="U1" gate="G$1" pin="86_PD0"/>
 </segment>
 </net>
 <net name="MOTOR3" class="0">
@@ -4944,9 +4944,9 @@ CENTER : CENTER</text>
 </net>
 <net name="MOTOR2" class="0">
 <segment>
-<wire x1="163.83" y1="113.03" x2="190.5" y2="113.03" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="90.17" x2="261.62" y2="90.17" width="0.1524" layer="91"/>
 <pinref part="SUPPLY201" gate="G$1" pin="P$1"/>
-<pinref part="U1" gate="G$1" pin="98_P07"/>
+<pinref part="U1" gate="G$1" pin="85_PD1"/>
 </segment>
 </net>
 <net name="MOTOR4" class="0">

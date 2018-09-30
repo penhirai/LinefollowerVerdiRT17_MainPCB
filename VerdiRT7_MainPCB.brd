@@ -16103,7 +16103,7 @@
 <wire x1="73.4246" y1="34.7794" x2="73.7554" y2="34.4486" width="0.127" layer="16"/>
 <wire x1="73.7554" y1="34.4486" x2="73.7554" y2="33.7084" width="0.127" layer="16"/>
 </signal>
-<signal name="N$86">
+<signal name="PWM_MOT1_MPU">
 <contactref element="U1" pad="77"/>
 <contactref element="R62" pad="P$2"/>
 <wire x1="85.5708" y1="15.2672" x2="84.228" y2="15.2672" width="0.127" layer="16"/>
@@ -16112,7 +16112,7 @@
 <wire x1="86.0707" y1="13.2961" x2="86.0707" y2="14.7673" width="0.127" layer="1"/>
 <via x="85.598" y="15.24" extent="1-16" drill="0.3" shape="octagon"/>
 </signal>
-<signal name="N$87">
+<signal name="PWM_MOT2_MPU">
 <contactref element="U1" pad="76"/>
 <contactref element="R65" pad="P$2"/>
 <wire x1="85.5708" y1="13.2961" x2="85.5708" y2="13.9972" width="0.127" layer="1"/>
@@ -16120,7 +16120,7 @@
 <wire x1="85.7436" y1="11.9194" x2="85.5708" y2="12.0922" width="0.127" layer="1"/>
 <wire x1="85.5708" y1="12.0922" x2="85.5708" y2="13.2961" width="0.127" layer="1"/>
 </signal>
-<signal name="N$88">
+<signal name="PWM_MOT3_MPU">
 <contactref element="R66" pad="P$2"/>
 <contactref element="U1" pad="46"/>
 <wire x1="87.5708" y1="29.3963" x2="87.5708" y2="30.6748" width="0.127" layer="1"/>

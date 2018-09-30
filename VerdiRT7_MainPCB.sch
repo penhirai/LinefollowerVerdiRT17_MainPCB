@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3538,6 +3538,8 @@ RIGHT : D
 DOWN : C
 LEFT : A
 CENTER : CENTER</text>
+<text x="129.54" y="72.39" size="1.778" layer="97">LEFT MOTOR</text>
+<text x="129.54" y="67.31" size="1.778" layer="97">RIGHT MOTOR</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="226.06" y="148.59"/>
@@ -5265,21 +5267,21 @@ CENTER : CENTER</text>
 <pinref part="J4" gate="G$1" pin="CD1"/>
 </segment>
 </net>
-<net name="N$86" class="0">
+<net name="PWM_MOT1_MPU" class="0">
 <segment>
 <wire x1="264.16" y1="64.77" x2="261.62" y2="64.77" width="0.1524" layer="91"/>
 <pinref part="R62" gate="G$1" pin="P$2"/>
 <pinref part="U1" gate="G$1" pin="77_PE1"/>
 </segment>
 </net>
-<net name="N$87" class="0">
+<net name="PWM_MOT2_MPU" class="0">
 <segment>
 <wire x1="270.51" y1="62.23" x2="261.62" y2="62.23" width="0.1524" layer="91"/>
 <pinref part="R65" gate="G$1" pin="P$2"/>
 <pinref part="U1" gate="G$1" pin="76_PE2"/>
 </segment>
 </net>
-<net name="N$88" class="0">
+<net name="PWM_MOT3_MPU" class="0">
 <segment>
 <wire x1="261.62" y1="102.87" x2="266.7" y2="102.87" width="0.1524" layer="91"/>
 <pinref part="R66" gate="G$1" pin="P$2"/>
@@ -5690,6 +5692,10 @@ CENTER : CENTER</text>
 <text x="335.28" y="170.18" size="1.778" layer="97">1: NC</text>
 <text x="335.28" y="149.86" size="1.778" layer="97">9: MOT OUT A</text>
 <text x="335.28" y="147.32" size="1.778" layer="97">10: MOT OUT B</text>
+<text x="236.22" y="165.1" size="1.778" layer="97">RIGHT MOTOR</text>
+<text x="236.22" y="208.28" size="1.778" layer="97">LEFT MOTOR</text>
+<text x="-2.54" y="248.92" size="1.778" layer="97">LEFT MOTOR</text>
+<text x="0" y="160.02" size="1.778" layer="97">RIGHT MOTOR</text>
 </plain>
 <instances>
 <instance part="SUPPLY116" gate="G$1" x="5.08" y="223.52"/>
@@ -7006,6 +7012,8 @@ CENTER : CENTER</text>
 <text x="100.33" y="41.91" size="1.778" layer="91">4.PhTr Collector</text>
 <text x="100.33" y="39.37" size="1.778" layer="91">5.GND</text>
 <text x="100.33" y="36.83" size="1.778" layer="91">6.Sensor AD</text>
+<text x="124.46" y="137.16" size="1.778" layer="97">Left Marker</text>
+<text x="124.46" y="50.8" size="1.778" layer="97">Right Marker</text>
 </plain>
 <instances>
 <instance part="C4" gate="G$1" x="64.77" y="62.23"/>

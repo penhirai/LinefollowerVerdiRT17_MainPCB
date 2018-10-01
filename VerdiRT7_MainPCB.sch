@@ -3113,8 +3113,8 @@ VF=0.98V trr=1.6ns CT=0.5pF
 <part name="SUPPLY85" library="supply2" deviceset="V&lt;--" device="" value="AD POW"/>
 <part name="SUPPLY98" library="supply2" deviceset="GND" device=""/>
 <part name="C27" library="capacitor" deviceset="1005" device="" value="10V 0.1u"/>
-<part name="R21" library="resistor" deviceset="R" device="1005" value="20k"/>
-<part name="R22" library="resistor" deviceset="R" device="1005" value="20k"/>
+<part name="R21" library="resistor" deviceset="R" device="1005" value="20k (DNP)"/>
+<part name="R22" library="resistor" deviceset="R" device="1005" value="20k (DNP)"/>
 <part name="SUPPLY151" library="supply2" deviceset="V&lt;--" device="" value="MD/FINE"/>
 <part name="SUPPLY152" library="supply2" deviceset="V&lt;--" device="" value="RESET"/>
 <part name="SUPPLY153" library="supply2" deviceset="V--&gt;" device="" value="MD/FINE"/>
@@ -3250,7 +3250,6 @@ VF=0.98V trr=1.6ns CT=0.5pF
 <part name="SUPPLY239" library="supply2" deviceset="V--&gt;" device="" value="RXD2 BTm"/>
 <part name="R75(DNP)" library="resistor" deviceset="R" device="1005" value="20k"/>
 <part name="R76(DNP)" library="resistor" deviceset="R" device="1005" value="20k"/>
-<part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="C53" library="capacitor" deviceset="1005" device="" value="10V 0.1u"/>
 <part name="C54" library="capacitor" deviceset="1005" device="" value="10V 0.1u"/>
 <part name="SUPPLY137" library="supply2" deviceset="GND" device=""/>
@@ -3403,18 +3402,18 @@ VF=0.98V trr=1.6ns CT=0.5pF
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
 <part name="C8" library="capacitor" deviceset="1005" device="" value="10V 1u"/>
 <part name="SUPPLY111" library="supply2" deviceset="GND" device=""/>
-<part name="R15" library="resistor" deviceset="R" device="1005" value="0"/>
+<part name="R15" library="resistor" deviceset="R" device="1005" value="0 (DNP)"/>
 <part name="R16" library="resistor" deviceset="R" device="1005" value="0"/>
 <part name="R17" library="resistor" deviceset="R" device="1005" value="0"/>
-<part name="R32" library="resistor" deviceset="R" device="1005" value="0"/>
+<part name="R32" library="resistor" deviceset="R" device="1005" value="0 (DNP)"/>
 <part name="SUPPLY112" library="supply2" deviceset="V--&gt;" device="" value="TCLK3"/>
 <part name="SUPPLY113" library="supply2" deviceset="V--&gt;" device="" value="TCLK4"/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="C7" library="capacitor" deviceset="1005" device="" value="10V 1u"/>
 <part name="SUPPLY115" library="supply2" deviceset="GND" device=""/>
-<part name="R8" library="resistor" deviceset="R" device="1005" value="0"/>
+<part name="R8" library="resistor" deviceset="R" device="1005" value="0 (DNP)"/>
 <part name="R9" library="resistor" deviceset="R" device="1005" value="0"/>
-<part name="R10" library="resistor" deviceset="R" device="1005" value="0"/>
+<part name="R10" library="resistor" deviceset="R" device="1005" value="0 (DNP)"/>
 <part name="R11" library="resistor" deviceset="R" device="1005" value="0"/>
 <part name="SUPPLY118" library="supply2" deviceset="V--&gt;" device="" value="MOTOR7"/>
 <part name="SUPPLY120" library="supply2" deviceset="V--&gt;" device="" value="MOTOR7"/>
@@ -3505,6 +3504,7 @@ VF=0.98V trr=1.6ns CT=0.5pF
 <part name="SUPPLY226" library="supply2" deviceset="V--&gt;" device="" value="G_FSYNC"/>
 <part name="SUPPLY227" library="supply2" deviceset="V--&gt;" device="" value="G_INT"/>
 <part name="R63" library="resistor" deviceset="R" device="1005" value="22"/>
+<part name="+3V3_LED16" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3765,7 +3765,6 @@ CENTER : CENTER</text>
 <instance part="SUPPLY239" gate="G$1" x="425.45" y="123.19"/>
 <instance part="R75(DNP)" gate="G$1" x="453.39" y="132.08" rot="R90"/>
 <instance part="R76(DNP)" gate="G$1" x="445.77" y="132.08" rot="R90"/>
-<instance part="P+3" gate="1" x="459.74" y="151.13"/>
 <instance part="C53" gate="G$1" x="464.82" y="143.51"/>
 <instance part="C54" gate="G$1" x="466.09" y="190.5"/>
 <instance part="SUPPLY137" gate="GND" x="464.82" y="138.43"/>
@@ -3780,6 +3779,7 @@ CENTER : CENTER</text>
 <instance part="R73" gate="G$1" x="342.9" y="83.82" rot="R180"/>
 <instance part="J4" gate="G$1" x="430.53" y="81.28"/>
 <instance part="SUPPLY252" gate="GND" x="369.57" y="107.95"/>
+<instance part="+3V3_LED16" gate="G$1" x="459.74" y="151.13"/>
 </instances>
 <busses>
 </busses>
@@ -3814,25 +3814,6 @@ CENTER : CENTER</text>
 <pinref part="R41" gate="G$1" pin="R2-B"/>
 <pinref part="R41" gate="G$1" pin="R4-B"/>
 <pinref part="R41" gate="G$1" pin="R3-B"/>
-</segment>
-<segment>
-<wire x1="459.74" y1="148.59" x2="459.74" y2="146.05" width="0.1524" layer="91"/>
-<wire x1="459.74" y1="146.05" x2="459.74" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="459.74" y1="137.16" x2="459.74" y2="133.35" width="0.1524" layer="91"/>
-<wire x1="453.39" y1="134.62" x2="453.39" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="453.39" y1="137.16" x2="459.74" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="445.77" y1="134.62" x2="445.77" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="445.77" y1="137.16" x2="453.39" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="459.74" y1="133.35" x2="466.09" y2="133.35" width="0.1524" layer="91"/>
-<wire x1="464.82" y1="146.05" x2="459.74" y2="146.05" width="0.1524" layer="91"/>
-<junction x="459.74" y="137.16"/>
-<junction x="453.39" y="137.16"/>
-<junction x="459.74" y="146.05"/>
-<pinref part="R75(DNP)" gate="G$1" pin="P$2"/>
-<pinref part="R76(DNP)" gate="G$1" pin="P$2"/>
-<pinref part="P+3" gate="1" pin="+5V"/>
-<pinref part="CH1" gate="G$1" pin="1"/>
-<pinref part="C53" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -4741,6 +4722,25 @@ CENTER : CENTER</text>
 <wire x1="137.16" y1="52.07" x2="137.16" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="R73_" gate="G$1" pin="P$1"/>
 <pinref part="+3V3_LED22" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<wire x1="459.74" y1="148.59" x2="459.74" y2="146.05" width="0.1524" layer="91"/>
+<wire x1="459.74" y1="146.05" x2="459.74" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="459.74" y1="137.16" x2="459.74" y2="133.35" width="0.1524" layer="91"/>
+<wire x1="453.39" y1="134.62" x2="453.39" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="453.39" y1="137.16" x2="459.74" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="445.77" y1="134.62" x2="445.77" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="445.77" y1="137.16" x2="453.39" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="459.74" y1="133.35" x2="466.09" y2="133.35" width="0.1524" layer="91"/>
+<wire x1="464.82" y1="146.05" x2="459.74" y2="146.05" width="0.1524" layer="91"/>
+<junction x="459.74" y="137.16"/>
+<junction x="453.39" y="137.16"/>
+<junction x="459.74" y="146.05"/>
+<pinref part="R75(DNP)" gate="G$1" pin="P$2"/>
+<pinref part="R76(DNP)" gate="G$1" pin="P$2"/>
+<pinref part="CH1" gate="G$1" pin="1"/>
+<pinref part="C53" gate="G$1" pin="P$1"/>
+<pinref part="+3V3_LED16" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="UB" class="0">

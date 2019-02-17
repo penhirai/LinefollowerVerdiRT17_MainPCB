@@ -54,6 +54,9 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -63,6 +66,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Bemassung" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
@@ -71,10 +75,31 @@
 <layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="202" name="202bmp" color="2" fill="10" visible="yes" active="yes"/>
@@ -84,6 +109,24 @@
 <layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
 <layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
 <layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="OrgLBR" color="13" fill="1" visible="yes" active="yes"/>
@@ -3342,6 +3385,106 @@ VF=0.98V trr=1.6ns CT=0.5pF
 </deviceset>
 </devicesets>
 </library>
+<library name="MountingSymbol">
+<packages>
+<package name="BASE_HOLE">
+<hole x="0" y="0" drill="4"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="GUIDE_HOLE">
+<hole x="0" y="0" drill="2.05"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="RECOG_MARK">
+<circle x="0" y="0" radius="0.5" width="0" layer="1"/>
+<circle x="0" y="0" radius="1.8" width="0.3" layer="1"/>
+<circle x="0" y="0" radius="1.5" width="0" layer="29"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="BASE_HOLE">
+<circle x="0" y="0" radius="5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<text x="-5.08" y="7.62" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="GUIDE_HOLE">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<text x="-2.54" y="5.08" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="3.81" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="RECOG_MARK">
+<text x="-3.81" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BASE_HOLE" prefix="S">
+<gates>
+<gate name="A" symbol="BASE_HOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BASE_HOLE">
+<technologies>
+<technology name="">
+<attribute name="HEIGHT" value="0.1" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GUIDE_HOLE" prefix="S">
+<gates>
+<gate name="A" symbol="GUIDE_HOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_1" package="GUIDE_HOLE">
+<technologies>
+<technology name="">
+<attribute name="HEIGHT" value="0.1" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2" package="GUIDE_HOLE">
+<technologies>
+<technology name="">
+<attribute name="HEIGHT" value="0.1" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RECOG_MARK" prefix="S">
+<gates>
+<gate name="A" symbol="RECOG_MARK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_1" package="RECOG_MARK">
+<technologies>
+<technology name="">
+<attribute name="HEIGHT" value="0.1" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2" package="RECOG_MARK">
+<technologies>
+<technology name="">
+<attribute name="HEIGHT" value="0.1" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_3" package="RECOG_MARK">
+<technologies>
+<technology name="">
+<attribute name="HEIGHT" value="0.1" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3692,6 +3835,13 @@ VF=0.98V trr=1.6ns CT=0.5pF
 <part name="U301" library="74xx-eu" deviceset="74LVC2G08" device="DC"/>
 <part name="U303" library="74xx-eu" deviceset="74LVC2G08" device="DC"/>
 <part name="U305" library="74xx-eu" deviceset="74LVC2G08" device="DC"/>
+<part name="S1" library="MountingSymbol" deviceset="BASE_HOLE" device=""/>
+<part name="S2" library="MountingSymbol" deviceset="BASE_HOLE" device=""/>
+<part name="S3" library="MountingSymbol" deviceset="GUIDE_HOLE" device="_1"/>
+<part name="S4" library="MountingSymbol" deviceset="GUIDE_HOLE" device="_2"/>
+<part name="S5" library="MountingSymbol" deviceset="RECOG_MARK" device="_1"/>
+<part name="S6" library="MountingSymbol" deviceset="RECOG_MARK" device="_2"/>
+<part name="S7" library="MountingSymbol" deviceset="RECOG_MARK" device="_3"/>
 </parts>
 <sheets>
 <sheet>
@@ -7723,6 +7873,28 @@ CENTER : CENTER</text>
 <pinref part="U501" gate="G$1" pin="4_SA0/SDO"/>
 </segment>
 </net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<wire x1="0" y1="58.42" x2="0" y2="0" width="1.016" layer="98"/>
+<wire x1="0" y1="0" x2="78.74" y2="0" width="1.016" layer="98"/>
+<wire x1="78.74" y1="0" x2="78.74" y2="58.42" width="1.016" layer="98"/>
+<wire x1="78.74" y1="58.42" x2="0" y2="58.42" width="1.016" layer="98"/>
+<text x="5.08" y="2.54" size="6.4516" layer="98">designed by S.Hirai</text>
+</plain>
+<instances>
+<instance part="S1" gate="A" x="15.24" y="40.64"/>
+<instance part="S2" gate="A" x="31.75" y="40.64"/>
+<instance part="S3" gate="A" x="15.24" y="26.67"/>
+<instance part="S4" gate="A" x="31.75" y="26.67"/>
+<instance part="S5" gate="A" x="15.24" y="13.97"/>
+<instance part="S6" gate="A" x="36.83" y="13.97"/>
+<instance part="S7" gate="A" x="57.15" y="13.97"/>
+</instances>
+<busses>
+</busses>
+<nets>
 </nets>
 </sheet>
 </sheets>

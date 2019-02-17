@@ -1,0 +1,11 @@
+Project: VerdiRT19_MainPCB
+
+Size	172.0 x 86 mm
+Layer	2
+Material	FR-4
+thickness	0.6mm
+Min Spacing	5mil
+Min Hole	0.3mm
+Silkscreen	white
+surface finish	Immersion gold
+Finished Copper	2oz Cu
